@@ -1,0 +1,44 @@
+GIT
+
+
+
+Initial config needed at the time of setup git bash
+===================================================
+  $ git config --global user.name xyz
+
+  $ git config --global user.email xyz@n.c
+
+Go to local repo location - 
+===========================
+
+Initialize the repo first time using 
+======================================
+  $ git init
+
+Link repo 
+=============
+  $ git remote add origin https://github.com/atharfaiz/sirius.git
+
+Add files
+==========
+  $ git add .
+
+Commit
+===========
+  $ git commit -m "this is my initial commit"
+
+Push
+======
+  $ git push origin master
+
+New Branch
+==========
+
+ $ git branch branchName
+Branch list
+===========
+$ git branch --list
+swich branch
+============
+$git checkout brancnName
+
