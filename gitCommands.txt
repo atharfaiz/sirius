@@ -35,10 +35,26 @@ New Branch
 ==========
 
  $ git branch branchName
+
 Branch list
 ===========
-$ git branch --list
+ $ git branch --list
+
 swich branch
 ============
-$git checkout brancnName
+ $ git checkout brancnName
+
+checkout on another system
+==========================
+Go to workspace location
+
+    git init
+
+    git pull <remote> <branch>
+
+$ git pull https://github.com/atharfaiz/sirius.git master
+
+    
+
+
 
