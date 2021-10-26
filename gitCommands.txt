@@ -54,6 +54,8 @@ Go to workspace location
 
 $ git pull https://github.com/atharfaiz/sirius.git master
 
+
+Finished Doc
     
 
 
